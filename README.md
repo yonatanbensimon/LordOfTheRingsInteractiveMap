@@ -41,6 +41,9 @@ To test this project, you can either install it locally (as shown below) or run 
 **It is very important to note that**
 
 1. Most of the time, when opening the link, the map won't be clickable. Usually, after refreshing the web page **one time**, the map becomes clickable. (Trying to press on Fangorn Forest is usually a good test to determine if the map is clickable or not, as you should be able to see the area hovered in red, as shown in the image below). If the map still does not work, restart your browser or pick a different browser.
+   
+<div align="center"><img src="readmemap.png"></img></div>
+
 2. When you load the map, the map canvas automatically detects the size of the browser. If the size of the browser changes, you will have to open a new tab.
 3. This map was tested using the Safari, Opera and Chrome browsers.
    
