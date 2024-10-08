@@ -1,0 +1,155 @@
+@font-face {
+  font-family: lordoftherings;
+  src: url(RingbearerMedium-51mgZ.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(208, 140, 59);
+}
+
+img {
+  display: block;
+  width: 80%;
+}
+
+.center-map {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+}
+
+ #b1 {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px;
+}
+
+#b1 {
+  background-color: green;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 1000px;
+  max-width: 80%;
+}
+
+.popup#anduin {
+  height: 750px;
+}
+
+.popup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.popuptitle {
+  text-align: center;
+  font-family: lordoftherings;
+}
+
+.close-button {
+  float: right;
+  margin: 8px 8px;
+}
+
+.minimap {
+  float: left;
+  width: 320px;
+  height: 320px;
+  border: 5px solid #555;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.movie {
+  float: right;
+  border: 5px solid #555;
+  margin-bottom: 30px;
+  width: 320px;
+  height: 320px;
+}
+
+.minimap#anduinimg {
+  height: 640px;
+}
+
+.movie#fangornimg {
+  width: 380px;
+}
+
+.popuptext {
+}
+
+.popup-content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text {
+  text-align: center;
+  font-family: lordoftherings;
+  font-size: 2.5em;
+}
+
+.details {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 16%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.details {
+  transition-duration: 0.4s;
+}
+
+.details:hover {
+  background-color: #3e8e41; /* Green */
+}
+
+.details:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

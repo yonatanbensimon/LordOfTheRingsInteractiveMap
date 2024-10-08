@@ -1,0 +1,37 @@
+@font-face {
+  font-family: lordoftherings;
+  src: url(RingbearerMedium-51mgZ.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(208, 140, 59);
+}
+
+img {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text {
+  text-align: center;
+  font-family: lordoftherings;
+  font-size: 2.5em;
+}
+
+.details {
+  background-color: #04AA6D; /* Green */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 12px;
+}
