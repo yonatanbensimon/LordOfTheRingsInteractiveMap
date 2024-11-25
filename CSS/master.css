@@ -11,15 +11,21 @@ body {
   background-color: rgb(208, 140, 59);
 }
 
-img {
-  display: block;
-  width: 80%;
+img.mapper {
+  width: auto;     
+  max-width: 100%; 
+  height: auto;    
+  display: block;  
+  margin: 0 auto;  
+  background-repeat: no-repeat;
 }
 
 .center-map {
-  margin: 0 auto;
-  width: 80%;
-  height: 80%;
+  max-width: 80%;  
+  margin: 0 auto; 
+  display: block;  
+  background-color: transparent;
+  background-repeat: no-repeat;
 }
 
  #b1 {
